@@ -4,6 +4,8 @@ spring:
 
 spring.batch.job.names: ${job.name:NONE}
 logging.level.org.springframework.batch: DEBUG
+chunkSize: 1000
+
 ---
 spring:
   profiles: local
